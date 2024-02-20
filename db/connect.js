@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const dotenv = require('dotenv');
 dotenv.config();
 
-const URL=process.env.MONGO_URI;
+const URL="mongodb+srv://12345:12345@taskmanager.e2hzowx.mongodb.net/?retryWrites=true&w=majority";
 
 
 const url = URL;
